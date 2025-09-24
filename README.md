@@ -11,11 +11,17 @@ O projeto foi desenvolvido utilizando **TypeScript**, e configurado para rodar *
 ## Estrutura do projeto
 
 ├─ docker-compose.yml # Configuração do n8n + PostgreSQL
+
 ├─ tsconfig.json # Configuração do TypeScript
+
 ├─ .n8n/
+
 │ └─ custom/
+
 │ ├─ Random.node.js # Node Random compilado
+
 │ └─ random.svg # Ícone do node
+
 └─ README.md
 
 ---
