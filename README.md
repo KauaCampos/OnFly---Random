@@ -26,13 +26,20 @@ O projeto foi desenvolvido utilizando **TypeScript**, e configurado para rodar *
 
 ---
 
+
+---
+
 ## Pré-requisitos
 
 - [Docker](https://www.docker.com/)
 - [Docker Compose](https://docs.docker.com/compose/)
 - Node.js (para compilar caso queira alterar o node TypeScript)
+- Banco de dados **PostgreSQL** criado previamente com nome `n8n`
 
----
+> Antes de subir os containers, certifique-se de criar o banco de dados `n8n` no PostgreSQL. Por exemplo, usando `psql`:
+
+CREATE DATABASE n8n;
+
 
 ## Instalação e execução
 
